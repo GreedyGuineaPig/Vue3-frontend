@@ -19,13 +19,13 @@
             <span class="material-symbols-outlined">folder</span>
             <span class="text">about</span>
         </router-link>
-        <router-link class="button" to="/team">
+        <router-link class="button" to="/char/SO">
             <span class="material-symbols-outlined">group</span>
-            <span class="text">Team</span>
+            <span class="text">Sol</span>
         </router-link>
         <router-link class="button" to="/contact">
             <span class="material-symbols-outlined">email</span>
-            <span class="text">contact</span>
+            <span class="text">Contact</span>
         </router-link>
     </div>
     <div class="flex"></div>
