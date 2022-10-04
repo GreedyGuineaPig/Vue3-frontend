@@ -13,29 +13,21 @@
     <div class="menu">
         <router-link class="button" to="/">
             <span class="material-symbols-outlined">home</span>
-            <span class="text">home</span>
+            <span class="text">Home</span>
         </router-link>
-        <router-link class="button" to="/about">
-            <span class="material-symbols-outlined">folder</span>
-            <span class="text">about</span>
-        </router-link>
-        <router-link class="button" to="/char/SO">
-            <span class="material-symbols-outlined">group</span>
-            <span class="text">Sol</span>
-        </router-link>
-        <router-link class="button" to="/contact">
-            <span class="material-symbols-outlined">email</span>
-            <span class="text">Contact</span>
-        </router-link>
+        <router-link class="button" to="/char">
+            <span class="material-symbols-outlined">person</span>
+            <span class="text">Character</span>
+        </router-link>        
     </div>
     <div class="flex"></div>
-    <div class="menu">
+    <!-- the below is for setting -->
+    <!-- <div class="menu">
         <router-link class="button" to="/setting">
             <span class="material-symbols-outlined">settings</span>
             <span class="text">setting</span>
         </router-link>
-
-    </div>
+    </div> -->
   </aside>
 </template>
 

@@ -8,14 +8,10 @@ const router = createRouter({
     routes: [
         {
             path: '/',
-            component:() => Home
-        },
-        {
-            path: '/about',
             component:() => About
         },
         {
-            path: '/char/:char',
+            path: '/char',
             component:() => Char
         }
     ]
